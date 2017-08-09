@@ -11,6 +11,7 @@ using InvoiceJe.Data;
 using InvoiceJe.Droid.Adapters;
 using Android.Content;
 using InvoiceJe.Droid.Activities;
+using InvoiceJe.Droid.Extensions;
 
 namespace InvoiceJe.Droid.Fragments
 {
@@ -20,7 +21,7 @@ namespace InvoiceJe.Droid.Fragments
         {
             var view = inflater.Inflate(Resource.Layout.invoices_fragment, container, false);
 
-            var repository = new Repository();
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
             var invoices = repository.GetInvoices();
 
             RecyclerView recyclerView = view.FindViewById<RecyclerView>(Resource.Id.recyclerView);

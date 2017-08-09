@@ -1,0 +1,9 @@
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\bin\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.deps.json
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\bin\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.runtimeconfig.json
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\bin\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.runtimeconfig.dev.json
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\bin\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.dll
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\obj\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.csprojResolveAssemblyReference.cache
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\obj\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.AssemblyInfo.cs
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\bin\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.pdb
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\obj\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.dll
+E:\_programming\ij\InvoiceJe\InvoiceJeMigrationsBait\obj\Debug\netcoreapp1.1\InvoiceJeMigrationsBait.pdb

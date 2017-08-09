@@ -31,7 +31,7 @@
     <Page.BottomAppBar>
         <CommandBar HorizontalAlignment="Stretch">
             <CommandBar.PrimaryCommands>
-                <AppBarButton Icon="Save" Label="Save" />
+                <AppBarButton x:ConnectionId='1' Icon="Save" Label="Save"                    />
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>

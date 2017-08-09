@@ -6,6 +6,7 @@ using Android.Support.V7.Widget;
 using Android.Views;
 using Android.Widget;
 using InvoiceJe.Data;
+using InvoiceJe.Droid.Extensions;
 using InvoiceJe.Models;
 using System.Linq;
 
@@ -30,7 +31,7 @@ namespace InvoiceJe.Droid.Activities
                 SupportActionBar.SetDisplayHomeAsUpEnabled(true);
             }
 
-            var repository = new Repository();
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
             int invoiceId = this.Intent.Extras.GetInt("InvoiceId");
             Invoice invoice = repository.GetInvoices().Where(x => x.Id == invoiceId).FirstOrDefault();
             

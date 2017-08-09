@@ -16,22 +16,22 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Margin="12 12 12 0">
             <TextBlock TextWrapping="Wrap" Text="Reference" Height="20" FontSize="15" />
-            <TextBox TextWrapping="Wrap" Height="32" Margin="0 4 0 0" />
+            <TextBox Name="ReferenceNumber" TextWrapping="Wrap" Height="32" Margin="0 4 0 0" />
             <TextBlock TextWrapping="Wrap" Text="Date Issued" Height="20" FontSize="15" Margin="0 24 0 0" />
             <DatePicker Height="34" Margin="0,4,0,0" HorizontalAlignment="Stretch" />
             <TextBlock TextWrapping="Wrap" Text="Bill To" Height="20" FontSize="15" Margin="0 24 0 0" />
-            <TextBox TextWrapping="Wrap" Height="32" Margin="0 0 0 0" />
+            <TextBox Name="BillTo" TextWrapping="Wrap" Height="32" Margin="0 0 0 0" />
             <TextBlock TextWrapping="Wrap" Text="Email To" Height="20" FontSize="15" Margin="0 24 0 0" />
             <TextBox TextWrapping="Wrap" Height="32" Margin="0 0 0 0" />
             <TextBlock TextWrapping="Wrap" Text="Total" Height="20" FontSize="15" Margin="0 24 0 0" />
-            <TextBox TextWrapping="Wrap" Height="32" Margin="0 0 0 0" />
+            <TextBox Name="Total" TextWrapping="Wrap" Height="32" Margin="0 0 0 0" />
         </StackPanel>
     </Grid>
 
     <Page.BottomAppBar>
         <CommandBar HorizontalAlignment="Stretch">
             <CommandBar.PrimaryCommands>
-                <AppBarButton Icon="Save" Label="Save" />
+                <AppBarButton Icon="Save" Label="Save" Click="AppBarButton_Click" />
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>

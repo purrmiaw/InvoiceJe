@@ -1,0 +1,6 @@
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\bin\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.deps.json
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\bin\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.runtimeconfig.json
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\bin\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.runtimeconfig.dev.json
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\bin\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\obj\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.csprojResolveAssemblyReference.cache
+E:\_programming\ij\InvoiceJe\InvoiceJe.DbMigrations\obj\Debug\netcoreapp1.1\InvoiceJe.DbMigrations.AssemblyInfo.cs

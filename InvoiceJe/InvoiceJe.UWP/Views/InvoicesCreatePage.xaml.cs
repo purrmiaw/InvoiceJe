@@ -1,4 +1,8 @@
-﻿using System;
+﻿using InvoiceJe.Data;
+using InvoiceJe.Models;
+using InvoiceJe.UWP.Extensions;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -62,6 +66,23 @@ namespace InvoiceJe.UWP.Views
                 e.Handled = true;
                 rootFrame.GoBack();
             }
+        }
+
+        private async void AppBarButton_ClickAsync(object sender, RoutedEventArgs e)
+        {
+            Invoice invoice = new Invoice();
+            invoice.ReferenceNumber = ReferenceNumber.Text;
+            invoice.Amount = Decimal.Parse(Total.Text);
+            invoice.BillTo = BillTo.Text;
+
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
+            await repository.CreateAsync(invoice);
+
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame == null)
+                return;
+
+            rootFrame.GoBack();
         }
     }
 }

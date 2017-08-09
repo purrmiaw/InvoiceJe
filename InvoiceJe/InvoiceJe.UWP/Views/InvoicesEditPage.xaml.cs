@@ -1,5 +1,6 @@
 ﻿using InvoiceJe.Data;
 using InvoiceJe.Models;
+using InvoiceJe.UWP.Extensions;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -54,7 +55,7 @@ namespace InvoiceJe.UWP.Views
             int invoiceId = (int)e.Parameter;
 
             // Populate Invoice property
-            var repository = new Repository();
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
             Invoice = repository.GetInvoices().Where(x => x.Id == invoiceId).FirstOrDefault();
         }
 

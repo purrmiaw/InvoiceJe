@@ -1,5 +1,6 @@
 ﻿using Foundation;
 using InvoiceJe.Data;
+using InvoiceJe.iOS.Extensions;
 using InvoiceJe.Models;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace InvoiceJe.iOS
 
         public InvoicesTableViewController (IntPtr handle) : base (handle)
         {
-            var repository = new Repository();
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
             _invoices = repository.GetInvoices();
         }
 

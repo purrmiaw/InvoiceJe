@@ -1,6 +1,9 @@
 ﻿using InvoiceJe.Data;
 using InvoiceJe.Models;
+using InvoiceJe.UWP.Extensions;
 using InvoiceJe.UWP.Views;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
@@ -29,7 +32,7 @@ namespace InvoiceJe.UWP
             titleBar.ButtonInactiveBackgroundColor = null; // by setting this to null, it gets the default value
 
             // repository
-            var repository = new Repository();
+            var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
             InvoicesListView.ItemsSource = repository.GetInvoices().ToList();
 
         }
