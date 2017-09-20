@@ -8,6 +8,7 @@ using InvoiceJe.Droid.Adapters;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using InvoiceJe.Models;
+using Android.Widget;
 
 namespace InvoiceJe.Droid.Activities
 {
@@ -46,6 +47,11 @@ namespace InvoiceJe.Droid.Activities
                 // divider
                 // ref: https://stackoverflow.com/questions/24618829/how-to-add-dividers-and-spaces-between-items-in-recyclerview
                 recyclerView.AddItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.Vertical));
+
+                // hide progressbar and show recyclerview
+                var progressBar = FindViewById<ProgressBar>(Resource.Id.progressbar_invoicesonline);
+                progressBar.Visibility = Android.Views.ViewStates.Gone;
+                recyclerView.Visibility = Android.Views.ViewStates.Visible;
 
             }, TaskScheduler.FromCurrentSynchronizationContext());
 
