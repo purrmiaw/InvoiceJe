@@ -20,6 +20,7 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Microsoft.Extensions.Logging.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Microsoft.Extensions.Options.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Microsoft.Extensions.Primitives.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Remotion.Linq.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Collections.Immutable.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -58,7 +59,6 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Mono.CSharp.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
@@ -75,4 +75,14 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Dynamic.Runtime.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.IO.FileSystem.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Numerics.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Xml.XmlDocument.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Xml.XDocument.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Xml.Linq.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ComponentModel.TypeConverter.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Serialization.Formatters.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Reflection.Primitives.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Diagnostics.Tracing.dll

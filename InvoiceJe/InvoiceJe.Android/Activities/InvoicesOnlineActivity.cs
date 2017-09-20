@@ -34,7 +34,7 @@ namespace InvoiceJe.Droid.Activities
             });
             t.Wait();
 
-            RecyclerView recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerView);
+            RecyclerView recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerview_invoicesonline);
             LinearLayoutManager layoutManager = new LinearLayoutManager(this);
             recyclerView.SetLayoutManager(layoutManager);
             InvoicesRecyclerViewAdapter adapter = new InvoicesRecyclerViewAdapter(invoices);

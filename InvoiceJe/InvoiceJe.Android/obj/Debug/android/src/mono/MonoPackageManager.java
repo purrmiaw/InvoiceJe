@@ -112,6 +112,7 @@ class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Logging.dll",
 		"Microsoft.Extensions.Options.dll",
 		"Microsoft.Extensions.Primitives.dll",
+		"Newtonsoft.Json.dll",
 		"Remotion.Linq.dll",
 		"System.Collections.Immutable.dll",
 		"System.Diagnostics.DiagnosticSource.dll",

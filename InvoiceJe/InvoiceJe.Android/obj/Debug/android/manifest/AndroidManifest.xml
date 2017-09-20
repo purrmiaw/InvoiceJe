@@ -13,6 +13,7 @@
     </activity>
     <activity android:theme="@style/MasterTheme" android:name="md5e82d3ff06f0a8c3d7ccf516ee4e8d768.InvoicesCreateActivity" />
     <activity android:theme="@style/MasterTheme" android:name="md5e82d3ff06f0a8c3d7ccf516ee4e8d768.InvoicesEditActivity" />
+    <activity android:theme="@style/MasterTheme" android:name="md5e82d3ff06f0a8c3d7ccf516ee4e8d768.InvoicesOnlineActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="InvoiceJe.Android.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
