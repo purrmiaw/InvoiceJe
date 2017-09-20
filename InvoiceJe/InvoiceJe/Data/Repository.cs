@@ -1,5 +1,4 @@
 ﻿using InvoiceJe.Models;
-using InvoiceJe.SharedModels;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
