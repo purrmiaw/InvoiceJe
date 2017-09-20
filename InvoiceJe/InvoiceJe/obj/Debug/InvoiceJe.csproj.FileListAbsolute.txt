@@ -3,3 +3,4 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe\bin\Debug\InvoiceJe.pdb
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe\obj\Debug\InvoiceJe.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe\obj\Debug\InvoiceJe.pdb
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe\obj\Debug\InvoiceJe.csprojResolveAssemblyReference.cache
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe\obj\Debug\InvoiceJe.csproj.CoreCompileInputs.cache

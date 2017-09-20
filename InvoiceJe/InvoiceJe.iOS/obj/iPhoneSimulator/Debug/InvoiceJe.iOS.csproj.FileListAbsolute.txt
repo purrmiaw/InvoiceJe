@@ -44,3 +44,5 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\bin\iPhoneSimulator\Debug\S
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\bin\iPhoneSimulator\Debug\System.Diagnostics.DiagnosticSource.xml
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\bin\iPhoneSimulator\Debug\System.Interactive.Async.xml
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\bin\iPhoneSimulator\Debug\InvoiceJe.iOS.exe.config
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.iOS\obj\iPhoneSimulator\Debug\InvoiceJe.iOS.csproj.CoreCompileInputs.cache

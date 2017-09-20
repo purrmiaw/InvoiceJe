@@ -116,3 +116,4 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\bin\Debug\System.Runtim
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\bin\Debug\InvoiceJe.Android.dll.mdb
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\InvoiceJe.Android.dll.mdb
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\InvoiceJe.dll.mdb
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\bin\Debug\InvoiceJe.Android.dll.config

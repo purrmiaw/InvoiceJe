@@ -72,6 +72,7 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="InvoiceJe.UWP.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />

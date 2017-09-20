@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-08T09:41:50.508</Modified>
+      <Modified>2017-09-18T04:51:48.430</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.UWP\bin\x86\Debug\InvoiceJe.UWP.exe">
       <PackagePath>entrypoint\InvoiceJe.UWP.exe</PackagePath>
-      <Modified>2017-08-08T09:41:49.385</Modified>
+      <Modified>2017-09-18T04:51:43.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\purr\.nuget\packages\Microsoft.CSharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -627,7 +627,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.UWP\bin\x86\Debug\InvoiceJe.UWP.xr.xml">
       <PackagePath>InvoiceJe.UWP.xr.xml</PackagePath>
-      <Modified>2017-08-02T08:29:25.038</Modified>
+      <Modified>2017-09-18T04:49:37.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -644,11 +644,11 @@
     <AppxPackagedFile Include="E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-07T04:24:03.566</Modified>
+      <Modified>2017-09-18T04:51:47.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.UWP\bin\x86\Debug\Core\InvoiceJe.UWP.exe">
       <PackagePath>InvoiceJe.UWP.exe</PackagePath>
-      <Modified>2017-08-08T09:41:50.502</Modified>
+      <Modified>2017-09-18T04:51:48.423</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

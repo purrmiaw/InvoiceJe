@@ -34,7 +34,8 @@ namespace InvoiceJe.Droid
             navigateToCreateInvoicesActivityFloatingActionButton.Click +=
                 delegate
                 {
-                    Intent intent = new Intent(this, typeof(InvoicesCreateActivity));
+                    //Intent intent = new Intent(this, typeof(InvoicesCreateActivity));
+                    Intent intent = new Intent(this, typeof(InvoicesOnlineActivity)); // Temporary
                     StartActivity(intent);
                 };
 

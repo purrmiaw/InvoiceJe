@@ -42,7 +42,9 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Collections.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Data.Common.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Data.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Numerics.dll
@@ -50,10 +52,9 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Mono.Data.Tds.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\Mono.Security.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Linq.dll
-E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Collections.dll
+E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Reflection.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Threading.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Collections.Concurrent.dll
-E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Reflection.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
@@ -66,7 +67,6 @@ E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\asset
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Globalization.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Text.Encoding.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ComponentModel.dll
-E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.Linq.Expressions.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ObjectModel.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ComponentModel.Annotations.dll
 E:\_programming\ij\InvoiceJe\InvoiceJe\InvoiceJe.Android\obj\Debug\android\assets\System.ComponentModel.DataAnnotations.dll
