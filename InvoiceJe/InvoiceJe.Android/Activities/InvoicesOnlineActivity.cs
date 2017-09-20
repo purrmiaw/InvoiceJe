@@ -27,23 +27,27 @@ namespace InvoiceJe.Droid.Activities
 
             // others
             var repository = new Repository(FileAccessHelper.GetLocalDatabasePath());
-            IEnumerable<Invoice> invoices = new List<Invoice>();
 
             var t = Task.Run( async () => {
-                invoices = await repository.GetInvoicesFromWebserviceAsync();
-            });
-            t.Wait();
+                var theInvoices = await repository.GetInvoicesFromWebserviceAsync();
+                return theInvoices;
+            })
+            .ContinueWith(async (resultOfPreviousTask) => 
+            {
+                var returnedInvoices = await resultOfPreviousTask;
 
-            RecyclerView recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerview_invoicesonline);
-            LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-            recyclerView.SetLayoutManager(layoutManager);
-            InvoicesRecyclerViewAdapter adapter = new InvoicesRecyclerViewAdapter(invoices);
-            //adapter.ItemClick += OnItemClick; // register onItemClick
-            recyclerView.SetAdapter(adapter);
+                RecyclerView recyclerView = FindViewById<RecyclerView>(Resource.Id.recyclerview_invoicesonline);
+                LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+                recyclerView.SetLayoutManager(layoutManager);
+                InvoicesRecyclerViewAdapter adapter = new InvoicesRecyclerViewAdapter(returnedInvoices);
+                //adapter.ItemClick += OnItemClick; // register onItemClick
+                recyclerView.SetAdapter(adapter);
 
-            // divider
-            // ref: https://stackoverflow.com/questions/24618829/how-to-add-dividers-and-spaces-between-items-in-recyclerview
-            recyclerView.AddItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.Vertical));
+                // divider
+                // ref: https://stackoverflow.com/questions/24618829/how-to-add-dividers-and-spaces-between-items-in-recyclerview
+                recyclerView.AddItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.Vertical));
+
+            }, TaskScheduler.FromCurrentSynchronizationContext());
 
         }
     }
