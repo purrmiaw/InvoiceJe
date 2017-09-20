@@ -53,6 +53,8 @@ namespace InvoiceJe.Droid.Activities
                 progressBar.Visibility = Android.Views.ViewStates.Gone;
                 recyclerView.Visibility = Android.Views.ViewStates.Visible;
 
+                recyclerView.ScheduleLayoutAnimation(); // animation
+
             }, TaskScheduler.FromCurrentSynchronizationContext());
 
         }
